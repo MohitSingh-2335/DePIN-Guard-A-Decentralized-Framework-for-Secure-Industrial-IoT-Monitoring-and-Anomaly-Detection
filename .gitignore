@@ -1,0 +1,27 @@
+# --- Python (Backend & AI) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.log
+
+# --- Hyperledger Fabric (Blockchain) ---
+# We do not commit the heavy binaries or the sample repo
+blockchain/fabric-samples/
+blockchain/install-fabric.sh
+bin/
+config/
+
+# --- Node.js (Frontend) ---
+node_modules/
+dist/
+.DS_Store
+
+# --- Docker ---
+*.tar
+*.tar.gz
+
+# --- IDEs ---
+.vscode/
+.idea/
